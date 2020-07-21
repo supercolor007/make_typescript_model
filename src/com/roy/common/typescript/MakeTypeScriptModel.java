@@ -209,9 +209,6 @@ public class MakeTypeScriptModel extends AnAction {
 
                         map = getFields(psiClass);
                         rootMap.put(psiClass, map);
-                        /*for (PsiField field : psiClass.getAllFields()) {
-                            map.put(field.getName(), typeResolve(field.getType(), level));
-                        }*/
 
                         return psiClass.getName();
                     }
