@@ -1,0 +1,13 @@
+/.settings
+/.classpath
+/.project
+/target
+/**/target/
+/.idea/*
+/bin/
+/**/*.iml
+/**/.idea/
+/**/.settings/
+/**/.project
+/**/.classpath
+/out/
