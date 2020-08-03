@@ -5,20 +5,21 @@
   <vendor email="993914116@qq.com" url="https://github.com/supercolor007">supercolor</vendor>
 
   <description><![CDATA[
-      Make Java model to TypeScript model. For example, Java model: Class Info { <br>
-      private Integer id;<br>
-      private String name;<br>
-      // getter setter<br>
+      Make Java model to TypeScript model. For example, Java model: <br>
+      Class Info { <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;private Integer id;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;private String name;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;// getter setter<br>
       }<br>
-      to typeScript model: export interface Info {<br>
-      id: number;<br>
-      name: string;<br>
+      to typeScript model: <br>
+      export interface Info {<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;id: number;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;name: string;<br>
       }<br>
     ]]></description>
 
   <change-notes><![CDATA[
-      init make model to typescript, 993914116@qq.com.<br>
-      <em>init</em>
+      make Java model to TypeScript model init.
     ]]>
   </change-notes>
 
