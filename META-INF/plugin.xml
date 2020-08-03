@@ -16,6 +16,9 @@
       &nbsp;&nbsp;&nbsp;&nbsp;id: number;<br>
       &nbsp;&nbsp;&nbsp;&nbsp;name: string;<br>
       }<br>
+      <br>
+      How to use: <br>
+      Code -> Generate -> MakeTypeScriptModel
     ]]></description>
 
   <change-notes><![CDATA[
