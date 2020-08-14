@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.roy.common.plugin.typescript</id>
   <name>MakeTypeScriptModel</name>
-  <version>1.1</version>
+  <version>1.2</version>
   <vendor email="993914116@qq.com" url="https://github.com/supercolor007">supercolor</vendor>
 
   <description><![CDATA[
