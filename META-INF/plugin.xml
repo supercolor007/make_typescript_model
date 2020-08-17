@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.roy.common.plugin.typescript</id>
   <name>MakeTypeScriptModel</name>
-  <version>1.2</version>
+  <version>1.0</version>
   <vendor email="993914116@qq.com" url="https://github.com/supercolor007">supercolor</vendor>
 
   <description><![CDATA[
@@ -31,7 +31,7 @@
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
-  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.java</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
