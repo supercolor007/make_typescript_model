@@ -26,6 +26,7 @@ public class MakeTypeScriptModel extends AnAction {
 
     @NonNls
     private static final Map<String, Object> normalTypes = new HashMap<>();
+    private static final Set<String> EXISTED_TYPE = new HashSet<>();
 
     private static final Map<PsiClass, Map<String, PojoInfo>> rootMap = new HashMap<>();
 
@@ -207,7 +208,11 @@ public class MakeTypeScriptModel extends AnAction {
                             throw new PluginException("This class reference level exceeds maximum limit or has nested references!");
                         }
 
-                        map = getFields(psiClass);
+                        if (!EXISTED_TYPE.contains(psiClass.getQualifiedName())) {
+                            EXISTED_TYPE.add(psiClass.getQualifiedName());
+                            map = getFields(psiClass);
+                        }
+
                         rootMap.put(psiClass, map);
 
                         return psiClass.getName();
