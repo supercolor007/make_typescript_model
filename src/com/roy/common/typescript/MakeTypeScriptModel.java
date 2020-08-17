@@ -77,6 +77,7 @@ public class MakeTypeScriptModel extends AnAction {
             Notifications.Bus.notify(error, project);
         } finally {
             rootMap.clear();
+            EXISTED_TYPE.clear();
         }
     }
 
